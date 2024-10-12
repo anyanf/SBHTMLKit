@@ -19,6 +19,13 @@
   align-items: center;
 }
 
+.sb-flex-between-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
 .sb-flex-between-center {
   display: flex;
   flex-direction: row;
@@ -248,18 +255,18 @@
   display: none;
 }
 
-// text限制两行
+/*text限制两行*/
 .text-clamp-2 {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
-// text限制三行
+/*text限制三行*/
 .text-clamp-3 {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
