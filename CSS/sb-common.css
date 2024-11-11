@@ -47,6 +47,14 @@
   align-items: center;
 }
 
+
+.sb-flex-start-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
 .sb-flex-end-center {
   display: flex;
   flex-direction: row;
@@ -88,6 +96,14 @@
   justify-content: space-around;
   align-items: center;
 }
+
+.sb-flex-column-center-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
 
 /* Flex 容器 */
 
@@ -255,16 +271,24 @@
   display: none;
 }
 
-/*text限制两行*/
-.text-clamp-2 {
+/* text限制一行 */
+.sb-text-clamp-1 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+/* text限制两行 */
+.sb-text-clamp-2 {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   overflow: hidden;
 }
 
-/*text限制三行*/
-.text-clamp-3 {
+/* text限制三行 */
+.sb-text-clamp-3 {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
