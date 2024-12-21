@@ -1,14 +1,10 @@
-/* ---------- 复合类 ---------- */
-
-/* flex布局 方向行 主轴start 交叉轴start */
+/* 复合类 */
 .sb-flex {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
 }
-
-/* flex布局 方向列 主轴start 交叉轴start */
 .sb-flex-column {
   display: flex;
   flex-direction: column;
@@ -16,7 +12,6 @@
   align-items: flex-start;
 }
 
-/* flex布局 方向行 主轴center 交叉轴center */
 .sb-flex-center {
   display: flex;
   flex-direction: row;
